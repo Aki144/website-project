@@ -1,0 +1,113 @@
+body, html {
+   margin           : 0px;
+   padding          : 0px;
+   background-color : #ececec;
+   font-family: Roboto
+}
+
+nav {
+  float            : left;
+  width            : 315px;
+  background-color : #8590aa;
+  margin           : 0px 0px 5px 0px;
+  padding          : 15px;
+  border-radius    : 10px;
+}
+
+nav ul {
+  padding          : 0px;
+  margin           : 0px;
+  list-style       : none;
+}
+
+nav li {
+  margin           : 0px 0px 5px 0px;
+  padding          : 5px;
+  border-style     : solid solid solid solid;
+  border-width     : 1px;
+  border-color     : #8590aa #8590aa #8590aa #8590aa;
+  text-align       : center;
+  background-color : #97aadb;
+}
+
+nav li a:link, nav li a:visited {
+  font-size        : 18px;
+  font-weight      : bold;
+  font-weight      : 900;
+  color            : #474b4f;
+  text-decoration  : none;
+}
+
+section {
+  float            : right;
+  width            : 600px;
+}
+
+article {
+  margin           : 0px 0px 5px 0px;
+  padding          : 15px;
+  border-radius    : 10px;
+  background-color : #e1f5a9;
+}
+
+footer {
+  clear            : both;
+  background-color : #c4dbf6;
+  margin           : 0px 0px 5px 0px;
+  padding          : 15px;
+  border-radius    : 10px;
+}
+
+
+.container {
+   width            : 950px;
+   margin           : 0px auto 0px auto;
+   padding          : 5px;　
+}
+
+
+.page-header {
+  margin           : 0px 0px 5px 0px;
+  padding          : 15px;
+  border-radius    : 10px;
+  background-color : #5da2d5;
+}
+.page-content {
+  margin           : 0px 0px 5px 0px;
+  padding          : 15px;
+  border-radius    : 10px;
+  background-color : #90ccf4;
+}
+
+.site-header {
+  font-family      : "Hobo Std", sans-serif;
+  font-size        : 32px;
+  font-weight      : bold;
+  text-align       : right;
+  color            : #474b4f;
+  margin           : 0px 0px 5px 0px;
+  padding          : 15px;
+  border-radius    : 10px;
+  background-color : #f78888;
+}
+
+
+dl.Words {
+	margin: 2em 0;
+	padding: 0;
+	font-family: georgia, times, serif;
+}
+
+.Words dt {
+	position: relative;
+	left: 0;
+	top: 1.1em;
+	width: 5em;
+	font-weight: bold;
+}
+
+.Words dd {
+	border-left: 1px solid #000;
+	margin: 0 0 0 6em;
+	padding: 0 0 .5em .5em;
+}
