@@ -1,3 +1,3 @@
 # Website Project
 
-Repo to store my file for my website project
+Repo to store my files for my website project
